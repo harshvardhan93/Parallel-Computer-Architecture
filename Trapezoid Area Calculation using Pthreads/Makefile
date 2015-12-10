@@ -1,0 +1,4 @@
+trap: trap.c
+	gcc -o trap trap.c -lpthread -lm
+clean: 
+	rm trap

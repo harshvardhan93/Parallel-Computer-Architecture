@@ -1,0 +1,4 @@
+histogram: histogram.c
+	gcc -o histogram histogram.c -std=gnu99 -lpthread -lm
+clean:
+	rm histogram
